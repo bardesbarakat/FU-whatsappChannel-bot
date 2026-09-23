@@ -1,0 +1,28 @@
+{
+  "name": "fu-whatsappchannel-bot-main",
+  "version": "1.0.0",
+  "description": "بوت تلقائي لسحب أخبار جامعة الفيوم ونشرها على قناة واتساب",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bardesbarakat/FU-whatsappChannel-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bardesbarakat/FU-whatsappChannel-bot/issues"
+  },
+  "homepage": "https://github.com/bardesbarakat/FU-whatsappChannel-bot#readme",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cheerio": "^1.2.0",
+    "node-cron": "^4.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.7"
+  }
+}
